@@ -36,6 +36,10 @@
                             <li><a href="#section42">Section 4-2</a></li>
                         </ul>
                     </li>
+
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/registrar">Registrase</a></li>
+
                 </ul>
             </div>
         </div>
@@ -52,7 +56,7 @@
     </blockquote>
 </div>
 
-<div class="parallax"></div>
+<div class="parallax" id="p1"></div>
 <div id="section2" class="container-fluid">
     <button type="button" class="btn btn-lg btn-block">Pedir presupuesto</button>
 </div>
