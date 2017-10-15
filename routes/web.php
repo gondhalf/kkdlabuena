@@ -20,3 +20,5 @@ Route::get('/login', function () {
 Route::get('/registrar', function () {
     return view('registrar');
 });
+Route::post('/registrar','UsuarioController@registrar');
+Route::post('/login','UsuarioController@logear');
