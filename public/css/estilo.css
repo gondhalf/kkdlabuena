@@ -15,11 +15,30 @@ body {
     background-size: cover;
 }
 #section1 h1{
-    background-color: white;
-    opacity: 0.8;
+    background-image: url("../image/fondo-metal1.jpg");
     color: black;
+    text-shadow: 1px 1px lightgrey;
 }
 #section2 {
+    padding-top:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height:auto;
+    color: black;
+    background-image: url("../image/fondo-negro1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2 .btn{
+    background-image: url("../image/fondo-metal1.jpg");
+    color: black;
+    text-shadow: 1px 1px lightgrey;
+    font-size: 30px;
+}
+#section3 {
     padding-top:auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -30,27 +49,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-#section3 {
-    padding-top:auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    height:auto;
-    color: black;
-    background-image: url("../image/casca2.gif");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
+}
+#section3 h2{
+    background-image: url("../image/fondo-metal1.jpg");
+    color: black;
+    text-shadow: 1px 1px lightgrey;
 }
 #section41 {
     padding-top:auto;
     padding-left: 50px;
     padding-right: 50px;
     height:auto;
-    color: black;
-    background-image: url("../image/casca2.gif");
+    color: white;
+    background-image: url("../image/fondo-negro1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,8 +74,8 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     height:auto;
-    color: black;
-    background-image: url("../image/casca2.gif");
+    color: white;
+    background-image: url("../image/fondo-negro1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,17 +96,27 @@ body {
 }
 #p1{
     background-image: url("../image/fondo-negro1.jpg");
+    min-height: 200px;
 }
 #p2{
-    background-image: url("../image/casca2.gif");
+    background-image: url("../image/indu-ban.png");
+}
+#p3{
+    background-image: url("../image/fabrika.jpg");
 }
 blockquote{
-    background-color: #f2f2f2;
-    opacity: 0.8;
+    background-image: url("../image/fondo-metal1.jpg");
+    color: black;
+    text-shadow: 1px 1px lightgrey;
 
 }
 #accordion{
     color: black;
+}
+.panel-heading{
+    background-image: url("../image/fondo-metal1.jpg");
+    color: black;
+    text-shadow: 1px 1px lightgrey;
 }
 @media (min-width: 1300px) {
     #section1, #section2, #section3, #section41,#section42{

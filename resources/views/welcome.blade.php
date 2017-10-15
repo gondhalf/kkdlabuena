@@ -60,10 +60,9 @@
 <div id="section2" class="container-fluid">
     <button type="button" class="btn btn-lg btn-block">Pedir presupuesto</button>
 </div>
-<div class="parallax" id="p2"></div>
+<div class="parallax" id="p3"></div>
 <div id="section3" class="container-fluid">
-    <h2>Collapse</h2>
-    <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+    <h2>Catalogo</h2>
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -103,11 +102,13 @@
         </div>
     </div>
 </div>
+<div class="parallax" id="p2"></div>
 <div id="section41" class="container-fluid">
     <h1>Colaboradores Carousel</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
+<div class="parallax" id="p2"></div>
 <div id="section42" class="container-fluid">
     <h1>Footer</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
