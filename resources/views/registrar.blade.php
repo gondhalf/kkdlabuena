@@ -18,7 +18,7 @@
                 <div class="caption">
                     <h3>Formulario de registro</h3>
                 </div>
-                <form action="" class="loginForm">
+                <form action="principal" class="loginForm" method="post">
                     <div class="input-group">
                         <input type="text" id="name" class="form-control" placeholder="Usuario">
                         <input type="password" id="paw" class="form-control" placeholder="Contraseña">
