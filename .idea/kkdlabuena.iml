@@ -154,7 +154,6 @@
           <root url="file://$MODULE_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
           <root url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
-          <root url="file://$MODULE_DIR$/../../php/pear" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/barryvdh/laravel-ide-helper" />
@@ -229,7 +228,6 @@
           <root url="file://$MODULE_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
           <root url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
-          <root url="file://$MODULE_DIR$/../../php/pear" />
         </SOURCES>
       </library>
     </orderEntry>

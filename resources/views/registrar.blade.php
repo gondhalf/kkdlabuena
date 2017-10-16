@@ -19,11 +19,12 @@
                     <h3>Formulario de registro</h3>
                 </div>
                 <form action="principal" class="loginForm" method="post">
+                    {!! csrf_field() !!}
                     <div class="input-group">
-                        <input type="text" id="name" class="form-control" placeholder="Usuario">
-                        <input type="password" id="paw" class="form-control" placeholder="Contraseña">
-                        <input type="text" id="telefono" class="form-control" placeholder="Telefono">
-                        <input type="text" id="email" class="form-control" placeholder="Email">
+                        <input type="text" id="name" name="usuario" class="form-control" placeholder="Usuario">
+                        <input type="password" id="paw" name="contraseña" class="form-control" placeholder="Contraseña">
+                        <input type="text" id="telefono" name="telefono" class="form-control" placeholder="Telefono">
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Email">
                         <input type="submit" id="submit" class="form-control" value="Registrarse">
                     </div>
                 </form>

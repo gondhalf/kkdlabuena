@@ -21,4 +21,3 @@ Route::get('/registrar', function () {
     return view('registrar');
 });
 Route::post('/principal','UsuarioController@registrar');
-Route::post('/principal','UsuarioController@logear');

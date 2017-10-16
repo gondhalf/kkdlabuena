@@ -16,7 +16,10 @@ class UsuarioController extends Controller
         }
     }
 
-    public function registrar($usuario,$contraseña,$telefono,$email){
-        DB::table('usuarios')->insertGetId($usuario,$contraseña,$telefono,$email);
+    public function registrar(){
+        //DB::table('usuarios')->insertGetId($usuario,$contraseña,$telefono,$email);
+        $this->validate(\request(),['usuario'=>'bail|required|string|max:20',]);
+        Usario::create(\request()->all());
+        return view('principal');
     }
 }
