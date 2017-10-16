@@ -20,9 +20,9 @@
                 </div>
                 <form action="principal" class="loginForm" method="post">
                     <div class="input-group">
-                        <input type="text" id="name" class="form-control" placeholder="Usuario">
-                        <input type="password" id="paw" class="form-control" placeholder="Contraseña">
-                        <input type="submit" id="submit" class="form-control" value="Submit">
+                        <input type="text" id="name" name="usuario" class="form-control" placeholder="Usuario">
+                        <input type="password" id="paw" name="contraseña" class="form-control" placeholder="Contraseña">
+                        <input type="submit" id="submit" class="form-control" value="Submit">   º
                     </div>
                 </form>
             </div>
